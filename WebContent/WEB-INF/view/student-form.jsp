@@ -21,16 +21,28 @@
 		<form:select path="country">
 
 			<form:options items="${student.countryOptions}" />
-			
+
 			<!-- 
 			<form:option value="A" label="A" />
 			<form:option value="B" label="B" />
 			<form:option value="C" label="C" />
 			<form:option value="D" label="D" />	
 			 -->
-		
+
 
 		</form:select>
+
+		<br></br>
+
+
+        Java <form:radiobutton path="favoriteLanguage" value="Java" />
+        Java1 <form:radiobutton path="favoriteLanguage" value="Java1" />
+        Java2 <form:radiobutton path="favoriteLanguage" value="Java2" />
+        Java3 <form:radiobutton path="favoriteLanguage" value="Java3" />
+
+        a <form:checkbox path="operatingSystems" value="a" />
+        b <form:checkbox path="operatingSystems" value="b" />
+
 
 		<br></br>
 
