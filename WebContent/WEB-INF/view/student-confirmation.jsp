@@ -12,7 +12,10 @@
 </head>
 <body>
 
-${student.firstName}  ${student.lastName}
+	${student.firstName} ${student.lastName}
+
+	<br></br> ${student.country}
+
 
 </body>
 </html>

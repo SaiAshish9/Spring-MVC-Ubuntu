@@ -17,9 +17,26 @@
 		<br></br>
 		Last name : <form:input path="lastName" />
 		<br></br>
+
+		<form:select path="country">
+
+			<form:options items="${student.countryOptions}" />
+			
+			<!-- 
+			<form:option value="A" label="A" />
+			<form:option value="B" label="B" />
+			<form:option value="C" label="C" />
+			<form:option value="D" label="D" />	
+			 -->
+		
+
+		</form:select>
+
+		<br></br>
+
 		<input type="submit" value="Submit" />
 	</form:form>
- 
+
 
 </body>
 </html>
