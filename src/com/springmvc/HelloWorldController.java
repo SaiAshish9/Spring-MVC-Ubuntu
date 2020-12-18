@@ -15,12 +15,12 @@ public class HelloWorldController {
 		return "helloworld-form";
 	}
 	
-	@RequestMapping("/processForm")
+	@RequestMapping("/hello/processForm")
 	public String processForm() {
 		return "helloworld";
 	}
 	
-	@RequestMapping("/processFormVersion2")
+	@RequestMapping("/hello/processFormVersion2")
 	public String shout(
 			@RequestParam("studentName") String theName,
 //			HttpServletRequest request

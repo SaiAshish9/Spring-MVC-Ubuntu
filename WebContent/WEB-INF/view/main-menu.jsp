@@ -6,6 +6,8 @@
 </head>
 <body>
 	<h1>hi</h1>
-	<a href="showForm">show form</a>
+	<a href="hello/showForm">show form</a>
+	<br/>
+	<a href="student/showForm" >Student Form </a>
 </body>
 </html>
